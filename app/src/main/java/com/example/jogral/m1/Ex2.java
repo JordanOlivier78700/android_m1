@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -44,6 +45,7 @@ public class Ex2 extends AppCompatActivity
     }
     public void click_convertir(View view)
     {
+        Log.d("doll", "click_convertir: ");
         int toconvert;
         toconvert = Integer.parseInt(et.getText().toString());
         double resultat;

@@ -24,4 +24,9 @@ public class MainActivity extends AppCompatActivity
         //Retour a la page Home
         startActivity(new Intent(this, Ex2.class));
     }
+    public void click_ex3(View view)
+    {
+        //Retour a la page Home
+        startActivity(new Intent(this, Ex3.class));
+    }
 }
